@@ -36,6 +36,13 @@
     },
     "ntp": true,
     "packages": [
+        "7zip",
+        "unrar",
+        "usbutils",
+        "dmidecode",
+        "inxi",
+        "lshw",
+        "smartmontools",
         "alacritty",
         "bash-completion",
         "bluez",
