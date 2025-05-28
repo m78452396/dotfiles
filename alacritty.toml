@@ -1,0 +1,6 @@
+[window]
+dimensions = { columns = 85, lines = 23 }
+dynamic_padding = true
+
+[font]
+size = 10
