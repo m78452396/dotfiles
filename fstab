@@ -3,16 +3,16 @@
 
 # <file system> <dir> <type> <options> <dump> <pass>
 # /dev/sda2
-UUID=bbd93632-a7b5-4f70-9b90-044d20e9db7e	/         		btrfs     	defaults,noatime,compress=zstd:2,commit=120,subvol=/@		0 0
+UUID=9873b0f2-a2e4-4a03-96d2-0727c9866d6e	/                       btrfs           defaults,compress=zstd:3,subvol=/@	0 0
 
 # /dev/sda2
-UUID=bbd93632-a7b5-4f70-9b90-044d20e9db7e	/home     		btrfs     	defaults,noatime,compress=zstd:2,commit=120,subvol=/@home	0 0
+UUID=9873b0f2-a2e4-4a03-96d2-0727c9866d6e	/home                   btrfs           defaults,compress=zstd:3,subvol=/@home	0 0
 
 # /dev/sda2
-UUID=bbd93632-a7b5-4f70-9b90-044d20e9db7e	/var/cache/pacman/pkg	btrfs     	defaults,noatime,compress=zstd:2,commit=120,subvol=/@pkg	0 0
+UUID=9873b0f2-a2e4-4a03-96d2-0727c9866d6e	/var/cache/pacman/pkg	btrfs           defaults,compress=zstd:3,subvol=/@pkg	0 0
 
 # /dev/sda2
-UUID=bbd93632-a7b5-4f70-9b90-044d20e9db7e	/var/log  		btrfs     	defaults,noatime,compress=zstd:2,commit=120,subvol=/@log	0 0
+UUID=9873b0f2-a2e4-4a03-96d2-0727c9866d6e	/var/log                btrfs           defaults,compress=zstd:3,subvol=/@log	0 0
 
 # /dev/sda1
-UUID=8C88-772A      				/boot     		vfat      	defaults,errors=remount-ro					0 2
+UUID=8C45-CB15                                  /boot                   vfat            defaults,errors=remount-ro	        0 2
