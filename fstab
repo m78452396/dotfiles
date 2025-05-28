@@ -1,0 +1,18 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/sda2
+UUID=bbd93632-a7b5-4f70-9b90-044d20e9db7e	/         		btrfs     	defaults,noatime,compress=zstd:2,commit=120,subvol=/@		0 0
+
+# /dev/sda2
+UUID=bbd93632-a7b5-4f70-9b90-044d20e9db7e	/home     		btrfs     	defaults,noatime,compress=zstd:2,commit=120,subvol=/@home	0 0
+
+# /dev/sda2
+UUID=bbd93632-a7b5-4f70-9b90-044d20e9db7e	/var/cache/pacman/pkg	btrfs     	defaults,noatime,compress=zstd:2,commit=120,subvol=/@pkg	0 0
+
+# /dev/sda2
+UUID=bbd93632-a7b5-4f70-9b90-044d20e9db7e	/var/log  		btrfs     	defaults,noatime,compress=zstd:2,commit=120,subvol=/@log	0 0
+
+# /dev/sda1
+UUID=8C88-772A      				/boot     		vfat      	defaults,errors=remount-ro					0 2
