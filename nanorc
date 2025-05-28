@@ -342,9 +342,9 @@
 
 set autoindent
 set indicator
-set tabstospaces
 set linenumbers
 set minibar
 set nohelp
 set softwrap
+set tabstospaces
 include /usr/share/nano/*.nanorc
